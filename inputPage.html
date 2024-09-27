@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Page</title>
+</head>
+<body>
+<form action="/inputPage" th:method="POST">
+    <div>
+        <label>Input text field</label>
+        <textarea name="text"></textarea>
+        <button type="submit">Send message</button>
+    </div>
+</form>
+<br>
+</body>
+</html>
